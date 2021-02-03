@@ -72,7 +72,6 @@
 		9125C7EE25BE321500D57DF5 /* Exceptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exceptions.swift; sourceTree = "<group>"; };
 		9125C7F225C0E3B800D57DF5 /* StandardInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardInput.swift; sourceTree = "<group>"; };
 		913FBDD825C61FA200323C7A /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
-		913FBDDC25CB033800323C7A /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		91E23FC025B472DC0027903A /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		91F022E425B36C4A0070C446 /* ExcelParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelParser.swift; sourceTree = "<group>"; };
 		91F656B225B209B40096B6B8 /* db */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = db; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				9125C7A125B4F8DF00D57DF5 /* README.md */,
-				913FBDDC25CB033800323C7A /* Package.swift */,
 				91F656B425B209B40096B6B8 /* Sources */,
 				91F656B325B209B40096B6B8 /* Products */,
 			);
@@ -244,7 +242,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
-				LastUpgradeCheck = 1230;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					91F656B125B209B40096B6B8 = {
 						CreatedOnToolsVersion = 12.3;
@@ -444,6 +442,7 @@
 		91F656BA25B209B40096B6B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -453,6 +452,7 @@
 		91F656BB25B209B40096B6B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

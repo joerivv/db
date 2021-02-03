@@ -4,3 +4,6 @@
 /*.xcodeproj
 xcuserdata/
 Package.resolved
+Package.swift
+/Tests
+/.swiftpm
